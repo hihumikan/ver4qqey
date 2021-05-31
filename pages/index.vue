@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <nav
       class="font-sans bg-white text-center flex justify-between my-4 mx-auto container overflow-hidden"
     >
@@ -16,7 +16,7 @@
         </li>
         <li>
           <a
-            href="#"
+            href="#link"
             class="inline-block py-2 px-3 text-gray-900 hover:text-gray-700 no-underline"
             >Link</a
           >
@@ -46,7 +46,7 @@
         <p class="text-gray-600">色々手を出し過ぎて全てが中途半端です。</p>
       </form>
     </div>
-    <section class="font-sans container m-auto text-center py-8">
+    <section class="font-sans container m-auto text-center py-8" id="link">
       <label
         for="tagline"
         class="uppercase tracking-wide font-bold text-gray-700"
@@ -60,39 +60,46 @@
         <div
           class="w-full sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center p-4"
         >
-          <div class="w-14 h-14 rounded-full mr-0 bg-gray-300" alt=""></div>
-          <h2 class="my-4 font-medium">GitHub</h2>
-          <p class="leading-normal mb-4 text-gray-700">
-            何か色々リポジトリ作っては放置してる。最近はVue.jsとかGoとかRustとか。
-          </p>
+          <a href="https://github.com/hihumikan">
+            <fa class="text-gray-700 text-6xl" :icon="faGithub" />
+            <h2 class="my-4 font-medium">GitHub</h2>
+            <p class="leading-normal mb-4 text-gray-700">
+              何か色々リポジトリ作っては放置してる。最近はVue.jsとかGoとかRustとか。
+            </p>
+          </a>
         </div>
         <div
           class="w-full sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center p-4"
         >
-          <fa class="text-gray-700 text-6xl" :icon="['fab', 'twitter']" />
-          <h2 class="my-4 font-medium">Twitter</h2>
-          <p class="leading-normal mb-4 text-gray-700">
-            思ったことをただ呟くだけ。
-          </p>
+          <a href="https://twitter.com/mikan_54951">
+            <fa class="text-gray-700 text-6xl" :icon="['fab', 'twitter']" />
+            <h2 class="my-4 font-medium">Twitter</h2>
+            <p class="leading-normal mb-4 text-gray-700">
+              思ったことをただ呟くだけ。
+            </p>
+          </a>
         </div>
         <div
           class="w-full sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center p-4"
         >
-          <div class="w-14 h-14 rounded-full mr-0 bg-gray-300" alt=""></div>
-          <h2 class="my-4 font-medium">Blog</h2>
-          <p class="leading-normal mb-4 text-gray-700">
-            何か目次録として使うかも。
-          </p>
+          <a href="https://blog.qqey.net/">
+            <fa class="text-gray-700 text-6xl" :icon="faBlog" />
+            <h2 class="my-4 font-medium">Blog</h2>
+            <p class="leading-normal mb-4 text-gray-700">
+              何か目次録として使うかも。
+            </p>
+          </a>
         </div>
         <div
           class="w-full sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center p-4"
         >
-          <div class="w-14 h-14 rounded-full bg-gray-300" alt=""></div>
-          <h2 class="my-4 font-medium">Telegram</h2>
-          <p class="leading-normal mb-4 text-gray-700">
-            何かあればこちらから。
-            <fa :icon="['fas', 'home']" />
-          </p>
+          <a href="https://t.me/yata_touka">
+            <fa class="text-gray-700 text-6xl" :icon="faTelegram" />
+            <h2 class="my-4 font-medium">Telegram</h2>
+            <p class="leading-normal mb-4 text-gray-700">
+              何かあればこちらから。
+            </p>
+          </a>
         </div>
       </div>
     </section>
@@ -101,8 +108,27 @@
 
 <script lang="ts">
 import Vue from 'vue'
-
-export default Vue.extend({})
+import { faBlog } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faTelegram } from '@fortawesome/free-brands-svg-icons'
+export default Vue.extend({
+  data() {
+    return {
+      telegram: 'https://github.com/hihumikan',
+    }
+  },
+  computed: {
+    faGithub() {
+      return faGithub
+    },
+    faBlog() {
+      return faBlog
+    },
+    faTelegram() {
+      return faTelegram
+    },
+  },
+})
 </script>
 
 <style>
