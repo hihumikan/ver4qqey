@@ -60,7 +60,7 @@
         <div
           class="w-full sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center p-4"
         >
-          <div class="w-14 h-14 rounded-full bg-gray-300" alt=""></div>
+          <fa class="text-gray-700 text-6xl" :icon="['fab', 'Github']" />
           <h2 class="my-4 font-medium">GitHub</h2>
           <p class="leading-normal mb-4 text-gray-700">
             何か色々リポジトリ作っては放置してる。最近はVue.jsとかGoとかRustとか。
@@ -69,7 +69,9 @@
         <div
           class="w-full sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center p-4"
         >
-          <div class="w-14 h-14 rounded-full bg-gray-300" alt=""></div>
+          <div class="w-14 h-14 rounded-full bg-gray-100" alt="">
+            <fa class="text-gray-700 text-6xl" :icon="['fab', 'twitter']" />
+          </div>
           <h2 class="my-4 font-medium">Twitter</h2>
           <p class="leading-normal mb-4 text-gray-700">
             思ったことをただ呟くだけ。
@@ -91,6 +93,7 @@
           <h2 class="my-4 font-medium">Telegram</h2>
           <p class="leading-normal mb-4 text-gray-700">
             何かあればこちらから。
+            <fa :icon="['fas', 'home']" />
           </p>
         </div>
       </div>
