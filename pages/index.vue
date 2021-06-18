@@ -88,7 +88,13 @@
             />
           </div>
         </div>
-        <p class="mb-5 mt-2 text-4xl text-gray-600">hihumikan</p>
+        <p class="mb-5 mt-2 text-4xl text-gray-600">
+          <vue-typer
+            text="hihumikan"
+            caret-animation="smooth"
+            :repeat="0"
+          ></vue-typer>
+        </p>
         <p class="text-gray-600">最近、プログラミングはじめました。</p>
         <p class="text-gray-600">色々手を出し過ぎて全てが中途半端です。</p>
       </form>
@@ -187,6 +193,8 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { VueTyper } from 'vue-typer'
+
 import { faBlog } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faTelegram } from '@fortawesome/free-brands-svg-icons'
@@ -207,13 +215,19 @@ export default Vue.extend({
       return faTelegram
     },
   },
+  components: {
+    // ES6; property shorthand + Vue should automatically dasherize the key for us
+    VueTyper,
+  },
 })
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
+.vue-typer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-*/
+
+.vue-typer .custom.char {
+  color: #353535;
+}
 </style>
