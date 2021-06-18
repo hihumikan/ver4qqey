@@ -4,11 +4,34 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'ver5',
+    titleTemplate: '%s - Homepage',
+    title: 'qqey.net',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'hihumikanのホームページです。',
+      },
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:site', content: '@mikan_54951' },
+      { name: 'twitter:creator', content: '@mikan_54951' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'qqey.net' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'https://qqey.net/' },
+      { hid: 'og:title', property: 'og:title', content: 'qqey.net' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'hihumikanのホームページです',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content:
+          'https://avatars.githubusercontent.com/u/26848713?s=460&u=b5c630322f32d86c35ec2a62469f36502755d83c&v=4',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -53,7 +76,15 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en',
+      name: 'qqey.net',
+      lang: 'ja',
+      short_name: 'qqey.net',
+      title: 'qqey.net',
+      'og:title': 'qqey.net',
+      description: 'hihumikanのホームページです。',
+      'og:description': 'hihumikanのホームページです。',
+      theme_color: '#212121',
+      background_color: '#212121',
     },
   },
 
