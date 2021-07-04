@@ -1,4 +1,4 @@
-# ver5 qqey.net
+# ver5 www.qqey.net
 
 ## Build Setup
 
