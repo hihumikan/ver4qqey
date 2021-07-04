@@ -157,7 +157,7 @@
             <fa class="text-gray-700 text-6xl" :icon="faBlog" />
             <h2 class="my-4 font-medium">Blog</h2>
             <p class="leading-normal mb-4 text-gray-700">
-              何か目次録として使うかも。
+              何かメモとして使うかも。
             </p>
           </a>
         </div>
