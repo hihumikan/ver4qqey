@@ -15,6 +15,7 @@ export default {
         content: 'hihumikanのホームページです。',
       },
       { name: 'twitter:card', content: 'summary' },
+      { name: 'yandex-verification', content: '700fd557de0546ca' },
       { name: 'twitter:site', content: '@mikan_54951' },
       { name: 'twitter:creator', content: '@mikan_54951' },
       { hid: 'og:site_name', property: 'og:site_name', content: 'qqey.net' },
