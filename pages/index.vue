@@ -48,24 +48,14 @@
         <p class="mb-5 mt-2 text-4xl text-gray-600">hihumikan</p>
         <p class="text-gray-600">最近、プログラミングはじめました。</p>
         <p class="text-gray-600">色々手を出し過ぎて全てが中途半端です。</p>
-        <table class="text-xs my-3">
-          <tbody>
-            <tr>
-              <td class="px-2 py-2 text-gray-500 font-semibold">Address</td>
-              <td class="px-2 py-2">インターネットのどこか</td>
-            </tr>
-            <tr>
-              <td class="px-2 py-2 text-gray-500 font-semibold">Email</td>
-              <td class="px-2 py-2">
-                <a href="mailto:a@qqey.net">a@qqey.net</a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <br />
+        <p class="text-gray-600">
+          JavaScript,Rails,Go,NetWorkを勉強しています。
+        </p>
         <div
           class="
-            pb-4
             pt-2
+            mt-5
             lg:pb-0
             w-4/5
             lg:w-full
