@@ -268,8 +268,9 @@
                 hover:bg-gray-500
                 rounded
               "
+              onclick="location.href='https://twitter.com/mikan_54951'"
             >
-              Add to Cart
+              Subscribe
             </button>
             <button
               class="
