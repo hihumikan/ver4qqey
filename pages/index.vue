@@ -26,7 +26,7 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                class="w-4 h-4 text-indigo-500"
+                class="w-4 h-4 text-yellow-300"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -39,7 +39,7 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                class="w-4 h-4 text-indigo-500"
+                class="w-4 h-4 text-yellow-300"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -52,7 +52,7 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                class="w-4 h-4 text-indigo-500"
+                class="w-4 h-4 text-yellow-300"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -65,7 +65,7 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                class="w-4 h-4 text-indigo-500"
+                class="w-4 h-4 text-yellow-300"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -78,7 +78,7 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                class="w-4 h-4 text-indigo-500"
+                class="w-4 h-4 text-yellow-300"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -167,18 +167,6 @@
                   d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
                 /></svg
             ></a>
-            <a href="https://ko-fi.com/hihumikan"
-              ><svg
-                class="h-6 fill-current text-gray-600 hover:text-green-700"
-                role="img"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title>Ko-fi</title>
-                <path
-                  d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z"
-                /></svg
-            ></a>
           </div>
           <div
             class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5"
@@ -262,19 +250,19 @@
           </div>
           <div class="flex">
             <span class="title-font font-medium text-2xl text-gray-900"
-              >0円</span
+              >52円</span
             >
             <button
               class="
                 flex
                 ml-auto
                 text-white
-                bg-indigo-500
+                bg-gray-700
                 border-0
                 py-2
                 px-6
                 focus:outline-none
-                hover:bg-indigo-600
+                hover:bg-gray-500
                 rounded
               "
             >
@@ -295,18 +283,18 @@
                 ml-4
               "
             >
-              <svg
-                fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"
-                ></path>
-              </svg>
+              <a href="https://ko-fi.com/hihumikan"
+                ><svg
+                  class="h-6 fill-current text-gray-600 hover:text-green-700"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Ko-fi</title>
+                  <path
+                    d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z"
+                  /></svg
+              ></a>
             </button>
           </div>
         </div>
