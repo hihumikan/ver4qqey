@@ -15,7 +15,7 @@
           src="https://scrapbox.io/files/60f5081667bbed0022926a54.jpg"
         />
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-          <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">
+          <h1 class="fontCostomColors text-3xl title-font font-medium mb-1">
             hihumikan
           </h1>
           <div class="flex mb-4">
@@ -85,10 +85,10 @@
                   d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
                 ></path>
               </svg>
-              <span class="text-gray-600 ml-3">null Reviews</span>
+              <span class="fontCostomColors ml-3">null Reviews</span>
             </span>
           </div>
-          <p class="leading-relaxed">
+          <p class="leading-relaxed fontCostomColors">
             最近、プログラミングはじめました。
             <br />
             色々手を出し過ぎて全てが中途半端です。
@@ -108,7 +108,7 @@
           >
             <a href="https://twitter.com/mikan_54951"
               ><svg
-                class="h-6 fill-current text-gray-600 hover:text-green-700"
+                class="h-6 fill-current fontCostomColors hover:text-green-700"
                 role="img"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +120,7 @@
             ></a>
             <a href="https://github.com/hihumikan"
               ><svg
-                class="h-6 fill-current text-gray-600 hover:text-green-700"
+                class="h-6 fill-current fontCostomColors hover:text-green-700"
                 role="img"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -132,7 +132,7 @@
             ></a>
             <a href="https://scrapbox.io/hihumikan/"
               ><svg
-                class="h-6 fill-current text-gray-600 hover:text-green-700"
+                class="h-6 fill-current fontCostomColors hover:text-green-700"
                 role="img"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +145,7 @@
             ></a>
             <a href="https://keybase.io/hihumikan"
               ><svg
-                class="h-6 fill-current text-gray-600 hover:text-green-700"
+                class="h-6 fill-current fontCostomColors hover:text-green-700"
                 role="img"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +157,7 @@
             ></a>
             <a href="mailto:a@qqey.net"
               ><svg
-                class="h-6 fill-current text-gray-600 hover:text-green-700"
+                class="h-6 fill-current fontCostomColors hover:text-green-700"
                 role="img"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -172,15 +172,17 @@
             class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5"
           >
             <div class="flex">
-              <span class="mr-3">Color</span>
+              <span class="mr-3 fontCostomColors">Color</span>
               <button
                 class="
                   border-2 border-gray-300
                   rounded-full
+                  bg-white
                   w-6
                   h-6
                   focus:outline-none
                 "
+                @click="$colorMode.preference = 'light'"
               ></button>
               <button
                 class="
@@ -192,10 +194,11 @@
                   h-6
                   focus:outline-none
                 "
+                @click="$colorMode.preference = 'dark'"
               ></button>
             </div>
             <div class="flex ml-6 items-center">
-              <span class="mr-3">興味</span>
+              <span class="mr-3 fontCostomColors">興味</span>
               <div class="relative">
                 <select
                   class="
@@ -249,7 +252,7 @@
             </div>
           </div>
           <div class="flex">
-            <span class="title-font font-medium text-2xl text-gray-900"
+            <span class="title-font font-medium text-2xl fontCostomColors"
               >52円</span
             >
             <button
@@ -303,4 +306,15 @@
   </section>
 </template>
 
-<style></style>
+<style>
+body {
+  background-color: #fff;
+  color: #000;
+}
+.dark-mode body {
+  background-color: #091a28;
+}
+.dark-mode .fontCostomColors {
+  color: #fff;
+}
+</style>
