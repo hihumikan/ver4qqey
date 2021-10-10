@@ -15,7 +15,7 @@
           src="https://scrapbox.io/files/60f5081667bbed0022926a54.jpg"
         />
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-          <h1 class="fontCostomColors text-3xl title-font font-medium mb-1">
+          <h1 class="topNameText text-3xl title-font font-medium mb-1">
             hihumikan
           </h1>
           <div class="flex mb-4">
@@ -317,5 +317,10 @@ body {
 }
 .dark-mode .fontCostomColors {
   color: #fff;
+}
+.topNameText {
+  background-image: linear-gradient(135deg, #c6368a 0%, #673dc2 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 </style>
