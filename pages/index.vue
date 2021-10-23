@@ -12,7 +12,7 @@
             object-cover object-center
             rounded
           "
-          src="https://scrapbox.io/files/60f5081667bbed0022926a54.jpg"
+          src="https://i.gyazo.com/e8415f87482fa3f75e4773d9f3b5c50a.png"
         />
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
           <h1 class="topNameText text-3xl title-font font-medium mb-1">
